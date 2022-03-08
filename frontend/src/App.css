@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: darkgray;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+width: 100%;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: rgb(223, 112, 8);
+}
+
+input {
+  padding: 0.6rem;
+  width: 300px;
+  margin-bottom: 1rem;
+}
+
+.add-user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
